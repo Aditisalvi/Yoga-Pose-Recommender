@@ -25,25 +25,25 @@ This intelligent yoga recommendation system uses advanced machine learning techn
 
 ```
 Yoga_Recommender/
-├── app.py                      # 🚀 Main Streamlit application
-├── requirements.txt            # 📦 Python dependencies
-├── yoga_recommender.py         # 🧠 Core recommender module
+├── app.py                      #  Main Streamlit application
+├── requirements.txt            #  Python dependencies
+├── yoga_recommender.py         #  Core recommender module
 ├── data/
 │   ├── raw/
-│   │   ├── asana_dataset.csv   # 🧘‍♀ Yoga poses dataset (141 poses)
-│   │   └── users.csv           # 👥 User data
+│   │   ├── asana_dataset.csv   #  Yoga poses dataset (141 poses)
+│   │   └── users.csv           #  User data
 │   └── processed/
 │       └── processed_asanas_data.csv
 ├── src/
 │   ├── models/
-│   │   ├── yoga_recommender.py # 🤖 Neural network recommender system
-│   │   ├── model.py           # 🔬 ML model implementations
-│   │   ├── recommender.py     # 💡 Recommendation logic
-│   │   ├── train_evaluate.py  # 📈 Training and evaluation
-│   │   ├── main.py           # 🎯 Main execution script
-│   │   └── *.pkl             # 💾 Trained model files
-│   ├── data/                 # 📊 Data processing modules
-│   └── visualization/        # 📈 Charts and visualizations
+│   │   ├── yoga_recommender.py #  Neural network recommender system
+│   │   ├── model.py           #  ML model implementations
+│   │   ├── recommender.py     #  Recommendation logic
+│   │   ├── train_evaluate.py  # Training and evaluation
+│   │   ├── main.py           #  Main execution script
+│   │   └── *.pkl             #  Trained model files
+│   ├── data/                 #  Data processing modules
+│   └── visualization/        #  Charts and visualizations
 ├── notebooks/
 │   └── yoga-recommender-system.ipynb  # 📓 Development notebook
 └── screenshots/             # 📸 Application screenshots
@@ -111,35 +111,20 @@ Yoga_Recommender/
    - Age and physical measurements (height, weight)
    - Fitness level (Beginner/Intermediate/Advanced)
    - Primary goal (Flexibility, Strength, Balance, etc.)
-<<<<<<< HEAD
-3. **✨ Get Recommendations**: Click "Get AI Recommendations" to receive personalized suggestions
-4. **📖 Review Poses**: Explore detailed information about each recommended pose
-5. **🧘‍♀️ Practice Safely**: Follow the duration and repetition guidelines provided
-=======
 3. *✨ Get Recommendations*: Click "Get AI Recommendations" to receive personalized suggestions
 4. *📖 Review Poses*: Explore detailed information about each recommended pose
 5. *🧘‍♀ Practice Safely*: Follow the duration and repetition guidelines provided
->>>>>>> e554155 (final changes)
 
 ## 🎯 Recommendation Factors
 
 The AI system considers multiple factors when generating recommendations:
 
-<<<<<<< HEAD
-- **📊 User Demographics**: Age, height, weight, BMI calculation
-- **💪 Fitness Level**: Physical capability assessment
-- **🎯 Primary Goals**: Specific focus areas for practice
-- **📈 Experience Level**: Beginner-friendly vs. advanced poses
-- **⏰ Time Constraints**: Session duration preferences
-- **🧘‍♀️ Pose Compatibility**: Matching user profile with pose requirements
-=======
 - *📊 User Demographics*: Age, height, weight, BMI calculation
 - *💪 Fitness Level*: Physical capability assessment
 - *🎯 Primary Goals*: Specific focus areas for practice
 - *📈 Experience Level*: Beginner-friendly vs. advanced poses
 - *⏰ Time Constraints*: Session duration preferences
 - *🧘‍♀ Pose Compatibility*: Matching user profile with pose requirements
->>>>>>> e554155 (final changes)
 
 ## 🔧 Technical Details
 
@@ -158,17 +143,10 @@ The AI system considers multiple factors when generating recommendations:
 - *Model Persistence*: Pickle
 - *Styling*: Custom CSS with glassmorphism effects
 
-<<<<<<< HEAD
-### 🛡️ Safety Features
-- **Risk Assessment**: Automated evaluation of pose safety
-- **Progressive Difficulty**: Gradual advancement recommendations
-- **Age-Appropriate Modifications**: Customized duration and repetitions
-=======
 ### 🛡 Safety Features
 - *Risk Assessment*: Automated evaluation of pose safety
 - *Progressive Difficulty*: Gradual advancement recommendations
 - *Age-Appropriate Modifications*: Customized duration and repetitions
->>>>>>> e554155 (final changes)
 
 ## 📝 Development
 
@@ -179,10 +157,9 @@ The project follows a modular architecture with clear separation of concerns:
 - *🎨 Application Layer*: Streamlit interface and user interaction
 - *🔧 Utility Layer*: Helper functions and utilities
 
-<<<<<<< HEAD
-**🌸 Start Yoga, Start a New Life 🌸**
+*🌸 Start Yoga, Start a New Life 🌸*
 
-## 🖼️ Screenshots
+## 🖼 Screenshots
 
 Explore some screenshots of the application below:
 
@@ -193,21 +170,6 @@ Explore some screenshots of the application below:
 | Analytics View | Results Summary |
 |----------------|-----------------|
 | ![Screen 4](screenshots/Screenshot3.png) | ![Screen 5](screenshots/Screenshot2.png) |
-=======
-*🌸 Start Yoga, Start a New Life 🌸*
-
-## 🖼 Screenshots
-
-Explore some screenshots of the application below:
-
-| Main Interface | User Profile                             | Recommendations                          |
-|----------------|------------------------------------------|------------------------------------------|
-| ![Screen 1](screenshots/Screenshot1.png) | ![Screen 2](screenshots/Screenshot3.png) | ![Screen 3](screenshots/Screenshot2.png) |
-
-| Analytics View                           | Results Summary                          |
-|------------------------------------------|------------------------------------------|
-| ![Screen 4](screenshots/Screenshot4.png) | ![Screen 5](screenshots/Screenshot5.png) |
->>>>>>> e554155 (final changes)
 
 ## 🎥 Demo Video
 
@@ -215,19 +177,11 @@ Watch the application in action:
 
 [![Yoga Recommender Demo](screenshots/Screenshot1.png)](https://youtu.be/uLDPtarvv8Y)
 
-<<<<<<< HEAD
-*Click the image above or [here](https://youtu.be/uLDPtarvv8Y) to watch the demo video*
-
-## 👩‍💻 Author
-
-**Aditi Salvi**
-=======
 Click the image above or [here](https://youtu.be/uLDPtarvv8Y) to watch the demo video
 
 ## 👩‍💻 Author
 
 *Aditi Salvi*
->>>>>>> e554155 (final changes)
 - 🔗 Kaggle: [Yoga Recommender System Notebook](https://www.kaggle.com/code/aditisalvi04/yoga-recommender-system)
 - 💜 Built with love and advanced machine learning techniques
 
@@ -242,6 +196,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *🧘‍♀ Find Your Perfect Yoga Practice Today! 🧘‍♂*
 
-Made with ❤ and lots of ☕ by Aditi Salvi
+Made with 💜 and lots of ☕ by Aditi Salvi
 
 </div>
