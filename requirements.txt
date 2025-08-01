@@ -16,5 +16,4 @@ streamlit>=1.25.0
 
 # Utility packages
 pickle-mixin>=1.0.2
-warnings
 
